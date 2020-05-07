@@ -108,7 +108,7 @@ def promotion_pitches():
 @main.route('/pitch/<int:id>', methods = ['GET','POST'])
 def pitch(id):
     pitch = Pitch.get_pitch(id)
-    posted_date = pitch.posted.strftime('%b %d, %Y')
+    # posted_date = pitch.posted.strftime('%b %d, %Y')
 
     if request.args.get("like"):
         pitch.likes = pitch.likes + 1
@@ -137,7 +137,7 @@ def pitch(id):
 
     comments = Comment.get_comments(pitch)
 
-    return render_template("pitch.html", pitch = pitch, comment_form = comment_form, comments = comments, date = posted_date)
+    return render_template("pitch.html", pitch = pitch, comment_form = comment_form, comments = comments)
 
 @main.route('/user/<uname>/pitches')
 def user_pitches(uname):
