@@ -5,7 +5,7 @@
 
 ## PROJECT DESCRIPTION
 
-- This is a web based pitching application that displays a list of pitches posted by a user who has loged in,they will be able to click on a    certain pitch to delete it or update it | Behavior| input | output | | -------- | -------- | -------- | | Display pitches | On page load |    Show various pitches posted by different users is displayed | | Display pitches from other users | Click on a pitch | Redirect to a page     where you can access the pitch you have just clicked on | 
+- This is a web based pitching application that displays a list of pitches posted by a user who has loged in,they will be able to click on a certain pitch to delete it or update it | Behavior| input | output | | -------- | -------- | -------- | | Display pitches | On page load |    Show various pitches posted by different users is displayed | | Display pitches from other users | Click on a pitch | Redirect to a page     where you can access the pitch you have just clicked on | 
 
 ## GETTING STARTED
 
@@ -32,8 +32,12 @@
 
 ## CONTACT INFORMATION
 
-Email-address-odoyograce23@gmail.com
-Github-odoyoquee
+* Email-address:odoyograce23@gmail.com
+* Github:odoyoquee
 
+## LICENSE
+
+- This software license under MIT License
+- Copyright (c) ODOYO GRACE AWINO 2020
 
 
